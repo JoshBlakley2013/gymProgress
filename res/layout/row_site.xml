@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#99000000"
+    android:padding="10dp" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iconImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconImg"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ageTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconImg"
+        android:textSize="16sp"
+        android:textStyle="bold"
+       	android:textColor="#FFFFFF" 
+        android:layout_below="@id/nameTxt"
+        />
+    <TextView 
+        android:id="@+id/levelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconImg"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/ageTxt"
+        android:textColor="#FFFFFF" 
+        />
+
+</RelativeLayout>
